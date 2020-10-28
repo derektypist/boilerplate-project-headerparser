@@ -20,10 +20,9 @@ app.get("/", function (req, res) {
 
 
 // your first API endpoint... 
-app.get("/api/hello", function (req, res) {
-  res.json({greeting: 'hello API'});
+app.get("/api/whoami", function (req, res) {
+  res.json({ipaddress: "31.185.128.78", language:"en-GB,en;q=0.9,en-US;q=0.8", software:"Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/86.0.4240.111%20Safari/537.36%20Edg/86.0.622.51"});
 });
-
 
 
 // listen for requests :)
